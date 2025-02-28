@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(135deg, #1b0030, #200046, #320064);
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #ff0080;
+  border-radius: 12px;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0 0 15px #ff0080;
+}
+
+.title {
+  font-size: 2rem;
+  text-shadow: 0 0 10px cyan, 0 0 20px magenta;
+}
+
+.account {
+  font-size: 1rem;
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+.voted-message {
+  color: #ffcc00;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px #ffcc00;
+}
+
+.vote-title {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #00ffea;
+  text-shadow: 0 0 10px #00ffea;
+}
+
+.proposal-select {
+  background: #220033;
+  color: #ff00ff;
+  border: 2px solid #ff0080;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  outline: none;
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+.vote-button {
+  background: #ff0080;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  text-shadow: 0 0 10px white;
+}
+
+.vote-button:hover {
+  background: #ff00ff;
+  box-shadow: 0 0 15px #ff00ff;
+}
